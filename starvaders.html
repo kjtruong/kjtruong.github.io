@@ -40,7 +40,7 @@
 
 				<!-- Main -->
 					<article id="main">
-						<header class="shogun">
+						<header class="starvaders">
 							<h2>Star★Vaders</h2>
 							<p>Usability Evaluation</p>
 						</header>
@@ -50,9 +50,9 @@
 								<section>
 									<h3>Summary</h3>
 									<ul>
-										<li><b>Context:</b> Shogun Showdown is expected to hit Early Access in Q2 2023. I performed a usability evaluation and accessibility review to help the developer identify issues so that they can improve their game.</li>
-										<li><b>Approach:</b> I used a mind map to organize my thoughts as I was conducting the review.  The accessibility review was based on the <a href="https://learn.microsoft.com/en-us/gaming/accessibility/guidelines">Xbox Accessibility Guidelines (XAGs)</a>.  A report was created and the recommendation was to prioritize findings that also enable multiplatform support. </li>
-										<li><b>Outcome:</b> The developer agreed with my findings and recommendations. They plan to address the key findings prior to entering Early Access.</li>
+										<li><b>Context:</b> Star★Vaders is a game expected to hit Steam Early Access in Q4 2023. I performed a usability evaluation to help the development team identify UX issues so that they can improve their game prior to broader release.</li>
+										<li><b>Approach:</b> I followed the <a href="https://gamesuserresearch.com/how-to-get-games-user-research-experience-before-you-have-a-job/">steps</a> provided by Steve Bromley because he seems knowledgeable about how to break into the industry.</li>
+										<li><b>Outcome:</b> Some of the feedback has been addressed in the latest version of the game (not yet in Early Access) with more changes on the way. One of my notable learnings was that for games where a core element revolves around randomness (Ex: rogue-likes), as a reviewer you need to account for and manage that randomness. In this case, I took a time bound brute force approach.</li>
 									</ul>
 										<p>Download Report (<a href=assets/portfolio/UXReview_StarVaders.pdf>PDF</a>)</p>
 									
@@ -76,44 +76,23 @@
 									<hr />
 									<h3>Approach</h3>
 									<h4>Overall</h4>
-									<p>I broke the review into two parts, starting with the usability evaluation because</p>
+									<p>I followed the <a href="https://gamesuserresearch.com/how-to-get-games-user-research-experience-before-you-have-a-job/">blueprint</a> outlined by Steve Bromley. I did this because he is a seasoned games user researcher and wrote a book on how to be a games user researcher which is what I’d like to be.</p>
 									<ol>
-										<li>It is easier to focus on one review at a time</li>
-										<li>I expected the accessibility portion to require more in-depth analysis and I thought it would make more sense to start with a broader analysis first before going deep</li>
-										<li>I wanted to capture my initial usability impressions which would be difficult to do if I started playing the game with accessibility in mind first. </li>
+										<li>Identify suitable game – I found this game on one of the playtesting subreddits and it fit all the criteria (still time to make changes to the game, small team that does not have dedicated UX support, a mix of genres I am familiar with, etc) </li>
+										<li>Reach out – I contacted the development team via their Discord which was on their subreddit post.  In discussions with them, it sounded like it would be a good partnership as they were open to user experience feedback and are serious about game development.</li>
+										<li>Define scope and context – Continued discussion with developer to understand their current focus, priorities, timeline, etc so that I could better tailor the review to fit their needs.</li>
+										<li>Conduct Review – I played through the game as a normal player recording my gameplay footage as well as taking notes in a blank mind map. I did this to capture the new player experience.  Then I played the game as a UX professional to evaluate all aspects of the game through a UX lens.  For any potential issues that I captured I would have additional play sessions to validate.  </li>
+										<li>Report – I organized all my findings into a report.  The results were grouped by priority.  After I completed my draft, I reached out to the IGDA Games Research and User Experience SIG for peer review and received some feedback from several folks in the community including <a href="https://www.stevebromley.com/blog/about/">Steve Bromley</a>.  I updated my report to address the feedback.</li>
 									</ol>
-									<h5>Communication</h5>
-									<p>I reached out to the developer after I found their game to see if they would be receptive to me reviewing their game and publishing the material on my portfolio.  After they agreed, we discussed scope, particular areas of interest, and logistics so that I could better tailor my review.</p>
-									<p>Throughout the process, I checked in with the developer on a weekly basis to see if there were any updates they wanted to share and to give them visibility into my progress on the review.  All communication was asynchronous via Discord.</p>
-									<h5>Mind Map</h5>
-									<p>For both reviews I used a single mind map.  This mind map included game knowledge, positive findings, and any perceived issues I encountered through my play sessions. For each of the perceived issues I had additional play sessions to validate that it was a legitimate issue.  </p>
 									
-									<h4>Usability Evaluation</h4>
-									<p>I screen recorded my first play session and created a mind map in real time to track my understanding of the game as I got more familiar with the game. For my own organization, I primarily organized the findings around Nielsen’s usability heuristics but did not limit myself to those heuristics. </p>
-									<p>However, for the report, to help the developer better understand which items they should focus on, I organized the findings by severity using the definitions from GamesUserResearch.com.</p>
-									
-									<h4>Accessibility Review</h4>
-									<p>For the accessibility portion of the review, I used the Xbox Accessibility Guidelines (XAG).  I used these guidelines because</p>
-									<ul>
-										<li>Microsoft has been a major champion for improved accessibility in gaming.  These guidelines are framed in the context of gaming rather than some other domain.  Microsoft also offers a professional service where they use these guidelines and test a game’s accessibility – which allows me to mimic that service.</li>
-										<li>The content was recently published (less than a month) which gave me confidence that the material was up to date.</li>
-									</ul>
-									<h5>Process</h5>
-									<ol>
-										<li>Define scope – There are 23 guidelines and not all are applicable to the game in its current state.  I did several play sessions of the game to identify whether the guideline should be in scope for review.</li>
-										<li>Deep dive - For each in scope guideline, I would have focused play sessions to capture any findings and evidence.  Often several play sessions would be required for a single guideline.  Some guidelines required leveraging other tools.  For guideline ‘101 Text display’ I followed the XAG’s method of using Microsoft Paint to identify font sizes.  For guideline ‘102 Contrast’ I used Accessibility Insights for Windows to determine contrast ratios.</li>
-									
-									
-									<li>Create report – I organized my findings by guideline and identified whether it was a positive or an issue/concern.  This organization made the most sense to me as I expected may need to go back to the referenced guidelines to get more information should they have any questions.  Where applicable I included a visual to accompany the finding to help the reader better understand the material.</li>
-									</ol>
-									<h5>Limitations</h5>
-									<p>This was an independent review. Since I don't have any disabilities that are affected by these guidelines, my findings are limited to assessing whether the game adheres to the recommended implementation. I cannot draw on personal empirical evidence to share additional insights. In a future study, I could solicit help from people that have these disabilities so that the review would cover that gap.</p>
 									<hr />
 									<h3>Outcome</h3>
-									<p>I shared my report with the developer and we had a dialogue about the results. I also shared my personal recommendation on prioritizing addressing the findings that also enable the game to be played on other platforms so that the game can reach a wider audience.</p>
-									<p>The developer generally agreed with my findings and recommendation. They also shared that they liked how the report presented in a way that was clear, to the point, and actionable.  As recognition, they offered to provide a copy of the game as well as include me in the credits when it is released.</p>
-									<p>Some of the key findings are expected to be addressed in the next version of the game as part of the Early Access launch or they will be in a post-Early Access update.</p>
-									<p><i>Last Updated: May 28, 2023</i></p>
+									<p>I shared my report with my developer contact and we had a dialogue about the material.  The developer completely agreed with my findings.  Some findings have now been addressed via an improved tutorial, visual explanations for in game abilities, and navigation buttons.</p>
+									<p>One of my own learnings was the challenging nature of testing rogue-like games.  Due to their inherent randomness, without special testing capabilities, a reviewer may have a difficult time trying to review all scenarios.  For this study, I time bound the exercise and during that time period I tried to hit as many possible scenarios. I was thorough as I did not encounter any new scenarios after a while during my testing. However, it is possible that some edge case scenarios were missed.</p>
+									<p>As part of this activity, I also requested feedback on the report and process so that I can improve this experience moving forward.  This is an excerpt from what the developer shared:</p>
+									<blockquote>My feedback for you and your report is overall perfect. All the issues you've brought up are real issues that I totally agree with, and would be helpful for us to fix.  
+										<br> <br>You also display a very good understanding of the game for your limited playtime, and understand the intricacies of expected and unexpected behavior. (Calling out the Mothership, the turn timer, pushing invaders out of the doom zone, etc, are all very advanced topics that I was pleasantly surprised to see commented on!)</blockquote>
+									<p><i>Last Updated: May 29, 2023</i></p>
 								</section>
 
 								
